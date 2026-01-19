@@ -1,3 +1,5 @@
+# 06 – Release Engineering
+
 ## 📌 Overview
 This repository showcases **modern Release Engineering practices** focused on **safe, fast, and repeatable software delivery**.
 It demonstrates how to design **CI/CD pipelines**, manage **progressive delivery**, and ensure **reliability, security, and traceability** across releases.
@@ -33,36 +35,76 @@ Release Engineering here bridges **DevOps, SRE, and Platform Engineering**.
 ---
 
 ## 🧱 Reference Architecture
-
+```
 Developer Commit
-|
+      |
 CI Pipeline (Build, Test, Scan)
-|
+      |
 Artifact Registry
-|
+      |
 GitOps Repo
-|
+      |
 ArgoCD / CD Tool
-|
+      |
 Progressive Delivery Controller
-|
+      |
 Production Kubernetes
+```
 
 ---
 
 ## 📁 Repository Structure
-
-```text
+```
 06-release-engineering/
-├── pipelines/ # Jenkinsfiles / CI workflows
-├── artifacts/ # Artifact versioning examples
-├── strategies/ # Blue-green, canary configs
-├── feature-flags/ # Feature flag examples
-├── rollbacks/ # Rollback strategies & scripts
-├── policies/ # Release approval policies
-├── metrics/ # DORA & release metrics
-├── incidents/ # Release failure scenarios
+├── pipelines/             # Jenkinsfiles / CI workflows
+├── artifacts/             # Artifact versioning examples
+├── strategies/            # Blue-green, canary configs
+├── feature-flags/         # Feature flag examples
+├── rollbacks/             # Rollback strategies & scripts
+├── policies/              # Release approval policies
+├── metrics/               # DORA & release metrics
+├── incidents/             # Release failure scenarios
 └── README.md
 ```
 
 ---
+
+## 🔧 Tools & Technologies
+- Jenkins / GitHub Actions
+- ArgoCD / Argo Rollouts
+- Kubernetes
+- Helm / Kustomize
+- Feature flag tools (Unleash, LaunchDarkly)
+- Prometheus & Grafana
+- OPA / Kyverno
+
+---
+
+## 📊 Example Scenarios
+- Canary release with automated rollback
+- Feature flag driven production testing
+- Failed deployment recovery within minutes
+- Audit-ready release history
+
+---
+
+## 💼 Roles Mapped
+- Senior DevOps Engineer
+- Release Engineer
+- Platform Engineer
+- SRE
+- Engineering Productivity Lead
+
+---
+
+## 🚀 Roadmap
+- [ ] Multi-region releases
+- [ ] AI-assisted release risk scoring
+- [ ] Automated change log generation
+- [ ] Release impact analysis
+- [ ] GitOps-only production releases
+
+---
+
+**Author:** Manjula K M  
+**Focus:** Safe, scalable, enterprise-grade release engineering
