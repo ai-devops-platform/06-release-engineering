@@ -1,7 +1,3 @@
-from zipfile import ZipFile
-
-content = """# 06 – Release Engineering
-
 ## 📌 Overview
 This repository showcases **modern Release Engineering practices** focused on **safe, fast, and repeatable software delivery**.
 It demonstrates how to design **CI/CD pipelines**, manage **progressive delivery**, and ensure **reliability, security, and traceability** across releases.
