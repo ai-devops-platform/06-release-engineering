@@ -49,3 +49,16 @@ Progressive Delivery Controller
 Production Kubernetes
 
 ---
+
+## 📁 Repository Structure
+
+06-release-engineering/
+├── pipelines/ # Jenkinsfiles / CI workflows
+├── artifacts/ # Artifact versioning examples
+├── strategies/ # Blue-green, canary configs
+├── feature-flags/ # Feature flag examples
+├── rollbacks/ # Rollback strategies & scripts
+├── policies/ # Release approval policies
+├── metrics/ # DORA & release metrics
+├── incidents/ # Release failure scenarios
+└── README.md
