@@ -33,3 +33,19 @@ Release Engineering here bridges **DevOps, SRE, and Platform Engineering**.
 ---
 
 ## 🧱 Reference Architecture
+
+Developer Commit
+|
+CI Pipeline (Build, Test, Scan)
+|
+Artifact Registry
+|
+GitOps Repo
+|
+ArgoCD / CD Tool
+|
+Progressive Delivery Controller
+|
+Production Kubernetes
+
+---
