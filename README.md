@@ -52,6 +52,7 @@ Production Kubernetes
 
 ## 📁 Repository Structure
 
+```text
 06-release-engineering/
 ├── pipelines/ # Jenkinsfiles / CI workflows
 ├── artifacts/ # Artifact versioning examples
@@ -62,3 +63,6 @@ Production Kubernetes
 ├── metrics/ # DORA & release metrics
 ├── incidents/ # Release failure scenarios
 └── README.md
+```
+
+---
